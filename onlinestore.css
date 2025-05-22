@@ -23,7 +23,7 @@
         .navbar-brand {
             font-weight: bold;
             font-size: 1.8rem;
-            color: white !important;
+            color: white !important; /*The !important makes sure this rule overrides any other color rules that might come from Bootstrap or other styles.*/
         }
 
         .navbar-nav .nav-link {
@@ -50,7 +50,7 @@
         /* Custom hamburger menu */
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-        }
+        } /*This particular styling is overriding the default Bootstrap hamburger icon by providing a custom SVG image via a data:image URL.*/
 
         /* ========== HERO SECTION STYLES ========== */
         .hero-section {
