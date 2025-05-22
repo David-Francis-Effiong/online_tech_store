@@ -7,61 +7,61 @@ footer. Media queries were employed to facilitate responsive design, while a fra
 ##Design Choices & Development Process
 Below are some key design decisions employed for this project:
 
-###Design Philosophy
+##Design Philosophy
 
 -Modern Gradient Theme: Used a purple-blue gradient (#667eea to #764ba2) for visual appeal and brand consistency
 -Clean Typography: Implemented Segoe UI font family for excellent readability across devices
 -Card-Based Layout: Product cards with subtle shadows and hover effects for better user interaction
 
-###Responsive Design Strategy
+##Responsive Design Strategy
 
 -Mobile-First Approach: Used Bootstrap's grid system with custom breakpoints
 -Flexible Layouts: Products stack vertically on mobile, display in rows on larger screens
 -Adaptive Navigation: Collapsible hamburger menu for mobile devices
 -Scalable Typography: Font sizes adjust automatically for different screen sizes
 
-###Key Features Implemented
+##Key Features Implemented
 
-####Header & Navigation
+##Header & Navigation
 
 -Fixed navigation bar with smooth scrolling
 -Responsive hamburger menu for mobile
 -Brand logo with lightning bolt icon
 -Cart icon in navigation
 
-####Hero Section
+##Hero Section
 
 -Compelling call-to-action with gradient background
 -Animated elements with fade-in effects
 -Clear value proposition messaging
 
-####Product Section
+##Product Section
 
 -Four product cards as requested (Smartphone, Gaming Laptop, Wireless Headphones, Smart Watch)
 -Each card includes: image, name, description, price, and "Shop Now" button
 -Interactive buttons with success feedback
 
-####Footer
+##Footer
 
 -Comprehensive footer with four sections
 -Social media icons
 -Contact information and quick links
 -Professional styling with proper spacing
 
-####Bootstrap Integration
+##Bootstrap Integration
 
 -Grid System: Utilized Bootstrap's responsive grid for layout structure
 -Components: Leveraged navbar, cards, and utility classes
 -Icons: Integrated Bootstrap Icons for visual elements
 -Responsive Utilities: Used Bootstrap's responsive classes for optimal display
 
-####Performance & Accessibility
+##Performance & Accessibility
 
 -Clean Code: Well-commented and organized CSS/HTML
 -Semantic HTML: Proper heading hierarchy and semantic elements
 -Cross-Browser Compatibility: Modern CSS properties with fallbacks
 
-####Interactive Features
+##Interactive Features
 
 -Dynamic navbar background change on scroll
 -Product "Add to Cart" feedback animation
